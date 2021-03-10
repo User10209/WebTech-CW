@@ -1,0 +1,65 @@
+:root {
+	font-size: 18px;
+	color: #444;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: tomato;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	border-bottom: 1px 
+	solid #ccc;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.logo {
+	font-size: 4rem;
+}
+
+.nav > a{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 1.5rem;
+
+}
+
+
+.intro {
+	font-size: 3.3rem;
+	max-width: 70%;
+}
+
+.featured {
+	margin-top: 25px;
+	display: inline-block;
+	padding: 15px 30px;
+	background: tomato;
+	color: #fff;
+	font-size: 2rem;
+}
+
+/*Homepagee*/
+
+.container {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+}
