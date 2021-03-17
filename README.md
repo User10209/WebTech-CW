@@ -14,3 +14,7 @@ npm Install
 ```bash
 node app
 ```
+
+### Dependencies
+ - express
+ - pug
